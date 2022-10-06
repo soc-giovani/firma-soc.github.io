@@ -10,15 +10,22 @@
     
     <main>
         <div class="container">
-            <div class="col-6 logo">
-                <img src="log-soc.png" alt="">
+            <div class="logo">
+                <img src="hypothek.png" alt="">
             </div>
-            <div class="col-6">
-                <h1>Mariana Rangel</h1>
-                <h2>Coordinadora de la Universidad Empresarial</h2>
-                <p>Cel. 33 3156 4602</p>
-                <p>marangel@socasesores.com.mx</p>
-                <p class="direccion">Hamburgo 227, Col. Juárez, CDMX <br> socasesores.com</p>
+            <div class="col-6" style="width:max-content">
+                <h1>Luis Alberto Angulo</h1>
+                <h2>Director General</h2>
+                <p>Tel. (0155) 7580 8525</p>
+                <p>Cel. 55 2271 8950</p>
+                <p>Hamburgo 227, Col. Juárez, CDMX <br> socasesores.com</p>
+                <p>luangulo@socasesores.com</p>
+                <p>luisalberto.angulo.aguilera@gmail.com</p>
+                <p>micrositio/hypothek_one_click</p>
+                <p>socasesores.com</p>
+            </div>
+            <div class="col-6 qr" style="width: 300px;">
+                <img class="qr" src="qr.png" alt="">
             </div>
         </div>
         <footer>
@@ -32,64 +39,69 @@
 
     <style>
         body{
-            height: 225px;
-            width: 590px;
+            height: 500px;
+            width: 900px;
             background-color: white;
             font-family: 'Museo Sans';
             margin: 0;
             font: inherit;
             vertical-align: baseline;
         }
+        .container{
+            margin: 0px 25px;
+        }
         img{
-            width: 175px;
-            margin-bottom: 35px;
+            width: 450px;
+        }
+        .logo{
+            width: fit-content;
+            margin-bottom: 48px;
+            margin-top: 15px;
         }
         .col-6{
             display: inline-block;
             /*grid-template-columns: 1fr;
             grid-gap: 1em;*/
-            align-self: end;
         }
         .col-3{
             display: inline-block;
             margin:0px 12px;
             margin-top: 5px;
         }
-        .logo{
-            width: 175px;
-            margin-right: 45px;
-            margin-left: 25px;
-        }
         h1{
-            font-size: 21px;
-            color: #345071;
+            font-size: 34px;
+            color: #004F89;
             margin-bottom: 2px;
             font-family: 'Museo Sans';
+            font-weight: 600;
         }
         h2{
-            font-size: 15px;
-            color: #345071;
+            font-size: 28px;
+            color: #004F89;
             margin-bottom: 15px;
             margin-top: 2px;
             font-family: 'Museo Sans';
             margin-top: 5px;
+            font-weight: 300;
         }
         p{
             font-size: 18px;
-            color: #2AB6DF;
+            color: #345071;
             margin: 0px;
             font-family: 'Museo Sans';
         }
-        .direccion{
-            margin-bottom: 18px;
+        .qr{
+            margin-left: 145px;
+            width: 200px;
         }
         footer{
             height: 30px;
-            background:  linear-gradient(90deg, #275C94 0%, #59B2D5 49.3%, #469B5E 100%);
+            background:  linear-gradient(270deg, #7DF150 0%, #81EFEB 50.91%, #2857CA 100%);
             align-items: center;
             text-align: center;
             color: white;
-            width: 590px;
+            width: 900px;
+            margin-bottom: 0px !important;
             margin-top: 14px;
             font-family: 'Museo Sans';
         }
